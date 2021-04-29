@@ -91,4 +91,19 @@ header {
   color: #0000ff;
   border-radius: 5px;
 }
+
+@media (max-width: 415px) {
+  header {
+    height: auto;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .menu nav {
+    justify-content: center;
+  }
+  .menu ul {
+    padding: 0;
+  }
+}
 </style>

@@ -203,4 +203,18 @@ form #nome:hover {
 .areaToDo ul {
   padding: 0;
 }
+
+@media (max-width: 415px) {
+  .areaNome {
+    flex-direction: column;
+  }
+  .areaNome #nome {
+    border-radius: 5px 5px 0px 0px;
+  }
+  .areaNome button {
+    margin: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+  }
+}
 </style>
